@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int main() {
+	int a, b, c;
+	cout << "\nNHap vao 3 so a, b,c" ;
+	cin >> a >> b >> c;
+	int max = a;
+	if (b > max && b > c) {
+		max = b;
+	}
+	 else if (c > max && c > b) 
+	{
+		
+		        max = c;
+    }
+
+	else if (max > b && max > c) {
+		max = a;
+	}
+	cout << max;
+	system("pause");
+}
